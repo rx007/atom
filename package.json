@@ -56,7 +56,7 @@
     "semver": "^4.3.3",
     "service-hub": "^0.7.0",
     "sinon": "1.17.4",
-    "source-map-support": "^0.3.2",
+    "source-map-support": "^0.5.21",
     "temp": "0.8.1",
     "text-buffer": "9.2.2",
     "typescript-simple": "1.0.0",
