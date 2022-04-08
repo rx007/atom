@@ -14,7 +14,7 @@
   "license": "MIT",
   "electronVersion": "0.37.8",
   "dependencies": {
-    "async": "0.2.6",
+    "async": "3.2.2",
     "atom-keymap": "6.3.2",
     "atom-ui": "0.3.3",
     "babel-core": "^5.8.21",
@@ -36,7 +36,7 @@
     "jasmine-tagged": "^1.1.4",
     "jquery": "2.1.4",
     "key-path-helpers": "^0.4.0",
-    "less-cache": "0.23",
+    "less-cache": "0.24.0",
     "line-top-index": "0.2.0",
     "marked": "^0.3.5",
     "mocha": "2.5.1",
