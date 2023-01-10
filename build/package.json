@@ -29,7 +29,7 @@
     "grunt-lesslint": "0.17.0",
     "grunt-peg": "~1.1.0",
     "grunt-shell": "~0.3.1",
-    "grunt-standard": "^2.0.0",
+    "grunt-standard": "^3.2.0",
     "legal-eagle": "~0.13.0",
     "minidump": "~0.9",
     "npm": "2.13.3",
@@ -44,6 +44,6 @@
     "underscore-plus": "1.x",
     "unzip": "~0.1.9",
     "vm-compatibility-layer": "~0.1.0",
-    "webdriverio": "^2.4.5"
+    "webdriverio": "^5.0.0"
   }
 }
