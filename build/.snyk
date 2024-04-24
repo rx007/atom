@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - grunt-download-electron > github-releases > request > hawk:
+        patched: '2024-04-24T09:49:25.645Z'
+        id: 'npm:hawk:20160119'
+        path: grunt-download-electron > github-releases > request > hawk
+  'npm:http-signature:20150122':
+    - grunt-download-electron > github-releases > request > http-signature:
+        patched: '2024-04-24T09:49:25.645Z'
+        id: 'npm:http-signature:20150122'
+        path: grunt-download-electron > github-releases > request > http-signature
+  'npm:minimatch:20160620':
+    - grunt-download-electron > github-releases > grunt > findup-sync > glob > minimatch:
+        patched: '2024-04-24T09:49:25.645Z'
+        id: 'npm:minimatch:20160620'
+        path: >-
+          grunt-download-electron > github-releases > grunt > findup-sync > glob
+          > minimatch
+    - grunt-download-electron > github-releases > grunt > minimatch:
+        patched: '2024-04-24T09:49:25.645Z'
+        id: 'npm:minimatch:20160620'
+        path: grunt-download-electron > github-releases > grunt > minimatch
+    - grunt-download-electron > github-releases > grunt > glob > minimatch:
+        patched: '2024-04-24T09:49:25.645Z'
+        id: 'npm:minimatch:20160620'
+        path: grunt-download-electron > github-releases > grunt > glob > minimatch
+    - grunt-download-electron > github-releases > minimatch:
+        patched: '2024-04-24T09:49:25.645Z'
+        id: 'npm:minimatch:20160620'
+        path: grunt-download-electron > github-releases > minimatch
+  'npm:request:20160119':
+    - grunt-download-electron > github-releases > request:
+        patched: '2024-04-24T09:49:25.645Z'
+        id: 'npm:request:20160119'
+        path: grunt-download-electron > github-releases > request
+  'npm:tunnel-agent:20170305':
+    - grunt-download-electron > github-releases > request > tunnel-agent:
+        patched: '2024-04-24T09:49:25.645Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: grunt-download-electron > github-releases > request > tunnel-agent

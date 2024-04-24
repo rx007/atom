@@ -14,7 +14,7 @@
     "escope": "~3.3.0",
     "formidable": "~1.0.14",
     "fs-plus": "2.x",
-    "github-releases": "~0.3.1",
+    "github-releases": "~0.4.2",
     "glob": "^5.0.14",
     "grunt": "~0.4.1",
     "grunt-babel": "^5.0.1",
@@ -26,7 +26,7 @@
     "grunt-cson": "0.16.0",
     "grunt-download-electron": "^2.1.1",
     "grunt-electron-installer": "1.2.2",
-    "grunt-lesslint": "0.17.0",
+    "grunt-lesslint": "5.0.0",
     "grunt-peg": "~1.1.0",
     "grunt-shell": "~0.3.1",
     "grunt-standard": "^2.0.0",
@@ -44,6 +44,12 @@
     "underscore-plus": "1.x",
     "unzip": "~0.1.9",
     "vm-compatibility-layer": "~0.1.0",
-    "webdriverio": "^2.4.5"
-  }
+    "webdriverio": "^2.4.5",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
